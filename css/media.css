@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* 화면 너비 0 ~ 1320px*/
+@media (max-width:1320px){
+    #section01 .sns {display: none;}
+    #section02 .s02Wrap { width: 100%;}
+    #section03 .s03Wrap {width: 100%;}
+    #section04 .s04Wrap {width: 100%;}
+    #section09 .s09Wrap {
+        width: 100%;
+    }
+}
+
+/* 화면 너비 0 ~ 1200px */
+@media (max-width:1200px){
+    .headerWrap {
+
+    }
+    .headerW_in { width: 100%; }
+    .headerWrap p { left: 30px; font-size: 22px; }
+    .header_r ul { display: none;}
+    .hamburger { display: block; }
+    .hamburger.open span:first-child {transform: rotate(45deg); margin-top: 15px;}
+    .hamburger.open span:nth-child(2){ display: none; }
+    .hamburger.open span:last-child {transform: rotate(-45deg); margin-top: -3px;}
+    #section01 { width: 100%;}
+    #section01 .portfolio {
+        right: 23px;
+    }
+    #section01 .s01_main {
+        left: 30px;
+    }
+    #section03 .s03Wrap .skills { width: 100%;}
+    #section03 .s03Wrap li span { width: 180px; height: 180px;}
+    #section04 .s04Wrap {
+        width: 100%;
+    }
+    #section04 .port_txt h1 {
+        font-size: 40px;
+    }
+    #section04 .port_txt {
+        padding:20px 0 0 20px;
+    }
+    
+}
+
+
+/* 화면 너비 0 ~ 1020px */
+@media (max-width:1020px){
+    /* #section01 .s01_main .br {display: block;} */
+    #section01 .s01_main { font-size: 57px;}
+    #section01 .portfolio:after { top: 16px; height: 54px;}
+    #section02 .s02Top { width: 100%;}
+    #section02 .s02Top img {margin-left: 105px;}
+    #section02 .s02Bot { width: 100%; }
+    #section02 .s02Bot div { text-align: center;}
+    #section02 .s02Top p {font-size: 25px;}
+    #section02 .s02Top p:nth-of-type(2) { font-size: 15px;}
+    #section03 .charts .chart { }
+    #section03 .charts .chart:last-child { position: absolute; top: 100px;}
+    #section04 .port_txt h1,#section05 .port_txt h1,#section06 .port_txt h1,#section07 .port_txt h1,#section08 .port_txt h1,#section08-1 .port_txt h1 { font-size: 2em;}
+    #section04 .port_txt > p,#section05 .port_txt > p,#section06 .port_txt > p,#section07 .port_txt > p,#section08 .port_txt > p,#section08-1 .port_txt > p {font-size: 0.8em;}
+    #section04 .port_img li { width: 30.3333%;}
+    #section09 .s09Cont { width: 100%;}
+    #section09 .s09Cont .soon p { font-size: 40px; display: inline-block;}
+}
+
+/* 화면 너비 0 ~ 758 */
+@media (max-width:758px){
+    .br { display: block;}
+    .headerWrap p { font-size: 20px;}
+    #section01 .s01_main { font-size: 50px;}
+    #section01 .portfolio { font-size: 16px;}
+    #section01 .portfolio:after { top: 15px; height: 46px;}
+    #section02 .s02Top .s02Txt { height: auto; width: 100%;}
+    #section02 .s02Top > img { }
+    #section04 .port_img li { width: 100%;}
+}
