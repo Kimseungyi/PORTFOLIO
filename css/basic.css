@@ -122,8 +122,6 @@ p {
 /* 햄버거 end */
 
 /* sectionwrap start */
-.sectionWrap { 
-}
 /* section01 start */
 #section01 {
 	position: relative;
@@ -205,7 +203,6 @@ p {
     font-weight: 800;
     letter-spacing: -0.01em;
 }
-#section01 .s01_main p {}
 #section01 .s01_main p:nth-of-type(2) {
     margin-top: 25px;
 }
@@ -259,12 +256,6 @@ p {
 	background: #fff;
 	border-radius: 0 180px 0 180px;
 }
-#section02 .s02Wrap .title {
-}
-#section02 .s02Wrap .title span {
-	
-}
-
 #section02 .s02Top {
 	width: 1000px; 
 	margin: 0 auto;
@@ -485,8 +476,6 @@ p {
 }
 #section04 #modal .btn_close { position: absolute; top:10px; right: 10px; width: 40px; height: 40px; border-radius: 50%; border: 1px solid #6d6c6c; font-size: 13px; text-align: center; line-height: 40px; color: #6d6d6c; transition: 0.3s; cursor: pointer;} 
 #section04 #modal .btn_close:hover { border-color: #222; color: #222;}
-#section04 #modal .modalImg {}
-#section04 #modal .big {}
 #section04 #modal .big img { display: block; margin: auto;}
 #section04 #modal .mTxt { text-align: center;  font-family: 'Noto Sans KR', sans-serif; }
 #section04 #modal .mTxt p { font-size: 0.93em;}
@@ -519,7 +508,6 @@ p {
 	left: 50%;
 	transform: translate(-50%,-60%);
 }
-#section09 .s09Cont .soon {}
 #section09 .s09Cont .soon p { 
 	font-size: 50px;
 	font-weight: 500;
@@ -530,8 +518,6 @@ p {
 	margin: auto;
 	text-align: left;
 }
-#section09 .s09Cont .info ul {}
-#section09 .s09Cont .info li {}
 #section09 .s09Cont .info a {
 	font-size: 20px;
 	line-height: 60px;
@@ -564,7 +550,6 @@ p {
 	bottom: 0;
 	left: 0;
 }
-.copyright { }
 .copyright p { 
 	text-align: center;
 	padding-top: 12px;
