@@ -268,19 +268,22 @@ p {
 #section02 .s02Top {
 	width: 1000px; 
 	margin: 0 auto;
-	position: relative;
-	overflow: hidden;
 }
-#section02 .s02Top img { 
-	float: left;
-	width: 240px;
+#section02  img { 
+	width: 20%;
+	margin: 0 0 0 14%;
+	border: 1px solid #d1d1d1;
+	border-right: 0;
+	border-left: 0;
 }
 #section02 .s02Top .s02Txt {
+	display: block;
 	width: 750px;
 	height: 100%;
 	position: absolute;
-	top:50px;
-	right: 0;
+	top:22%;
+	left: 62%;
+	transform: translateX(-62%);
 	text-align: center;
 }
 #section02 .s02Top p {
@@ -299,9 +302,12 @@ p {
 	height: auto;
 	margin: auto;
 	display: flex;
+	flex-wrap: no-wrap;
 } 
 #section02 .s02Bot div {
 	flex: 1;
+	flex-basis: 27.3333%;
+    flex-grow: 0;
 	padding: 30px;
 }
 #section02 .s02Bot div h2 {
@@ -333,14 +339,18 @@ p {
 }
 #section03 .charts { 
 	width: 80%;
-	margin: 3rem auto;
+	margin: auto;	
+	overflow: hidden;
 	display: flex;
-	justify-content: center;
+	flex-wrap:no-wrap;
 }
 #section03 .charts .chart {
 	margin: 0 20px;
 	position: relative;
 	stroke: rgb(255, 132, 1,0.5);
+	min-height: 220px;
+    flex-basis: 150px;
+    flex-grow: 1;
 }
 #section03 .chart h2 {
 	position: absolute;
@@ -390,8 +400,9 @@ p {
 	position: absolute; 
 	top: 40%; left: 50%;
 	transform: translate(-50%,-50%);
-	padding: 10px;
+	padding: 0px 20px 20px 20px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+	box-sizing: border-box;
 }
 #section04 .s04Wrap .title {
 	width: 230px;
@@ -454,7 +465,7 @@ p {
 /* modal start*/
 #section04 #modal { 
 	display: none;
-	position: absolute; top: 50%; left: 50%; 
+	position: absolute; top: 44%; left: 50%; 
 	transform: translate(-50%,-50%); 
 	background: #fff;
 	box-shadow: 0 0 5px rgba(0,0,0,0.3);
@@ -478,10 +489,10 @@ p {
 #section04 #modal .big {}
 #section04 #modal .big img { display: block; margin: auto;}
 #section04 #modal .mTxt { text-align: center;  font-family: 'Noto Sans KR', sans-serif; }
-#section04 #modal .mTxt p { font-size: 17px;}
+#section04 #modal .mTxt p { font-size: 0.93em;}
 #section04 #modal .mBtn { text-align: center;}
 #section04 #modal .mBtn button { border: 0; margin: 30px 0 0 0; background: 0;}
-#section04 #modal .mBtn button a { display:block; padding: 10px 20px; background: #dedddd; text-transform: uppercase; transition: 0.3s;}
+#section04 #modal .mBtn button a { display:block; padding: 0.7em 1.3em; background: #dedddd; text-transform: uppercase; transition: 0.3s;}
 #section04 #modal .mBtn button:hover a { color: #fff; background: #222;}
 /* modal end*/
 
