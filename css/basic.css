@@ -113,8 +113,8 @@ p {
 .hamburger span:first-child { margin-top: 5px;}
 .hamburger span:nth-child(2) { display: none;}
 .hamburger span:last-child {margin-top: 15px;}
-.ham_list {  display:none; background: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3); height: 100vh;}
-.ham_list li { border-bottom: 1px solid #dbdbdb; height: calc(100vh/5); text-align: center; line-height: calc(100vh/5); transition: 0.3s;}
+.ham_list {  display:none; background: #fff; box-shadow: 0 0 5px rgba(0,0,0,0.3); height: 100%;}
+.ham_list li { border-bottom: 1px solid #dbdbdb; height: calc(100%/5); text-align: center; line-height: calc(100vh/5); transition: 0.3s;}
 .ham_list li:last-child { border-bottom: 0;}
 .ham_list li a { font-size: 20px; transition: 0.3s; }
 .ham_list li:hover { background: linear-gradient(to right bottom, orange, #ff8401);}
@@ -125,7 +125,7 @@ p {
 /* section01 start */
 #section01 {
 	position: relative;
-	height: 100vh;
+	height: 700px;
 	box-sizing: border-box;
 	width: 91%;
 	margin: auto;
@@ -243,7 +243,7 @@ p {
 
 /* section02 start*/
 #section02 {
-	height: 100vh;
+	height: 700px;
 	background: #f3f3f3;
 }
 #section02 .s02Wrap { 
@@ -311,7 +311,7 @@ p {
 
 /* section03 start*/
 #section03 {
-	height: 100vh;
+	height: 700px;
 	background: url(../img/background.jpeg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -377,7 +377,7 @@ p {
 
 /* section04 start*/
 #section04 {
-	height: 100vh;
+	height: 700px;
 	background: url(../img/background.jpeg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -456,7 +456,7 @@ p {
 /* modal start*/
 #section04 #modal { 
 	display: none;
-	position: absolute; top: 44%; left: 50%; 
+	position: absolute; top: 50%; left: 50%; 
 	transform: translate(-50%,-50%); 
 	background: #fff;
 	box-shadow: 0 0 5px rgba(0,0,0,0.3);
@@ -487,7 +487,7 @@ p {
 
 /* section09 start*/
 #section09 {
-	height: 100vh;
+	height: 650px;
 	position: relative;
 }
 #section09 .s09Wrap {
@@ -511,7 +511,7 @@ p {
 #section09 .s09Cont .soon p { 
 	font-size: 50px;
 	font-weight: 500;
-	margin:0 auto 110px;
+	margin:0 auto 90px;
 }
 #section09 .s09Cont .info {
 	width: 295px;

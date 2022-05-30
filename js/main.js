@@ -1,4 +1,21 @@
- //햄버거 버튼 클릭시 해당 섹션으로 감
+//btn버튼을 클릭하면 해당 섹션으로 부드럽게 이동
+$('.btn1,.arrow').click(function(){
+    $('html').animate({scrollTop:0},700);
+});
+$('.btn2').click(function(){
+    $('html').animate({scrollTop:660},700);
+});
+$('.btn3').click(function(){
+    $('html').animate({scrollTop:1320},700);
+});
+$('.btn4').click(function(){
+    $('html').animate({scrollTop:1900},700);
+});
+$('.btn9').click(function(){
+    $('html').animate({scrollTop:2720},700);
+});
+
+//햄버거 버튼 클릭시 해당 섹션으로 감
 $('.ham_list li').click(function(){
     $('.ham_list').fadeOut(200);
     $(".hamburger").removeClass('open');
@@ -40,23 +57,6 @@ function animateChart(){
                     });
                 }); //chart each
 }
-
-//btn버튼을 클릭하면 해당 섹션으로 부드럽게 이동
-$('.btn1,.arrow').click(function(){
-    $('html').animate({scrollTop:0},700);
-});
-$('.btn2').click(function(){
-    $('html').animate({scrollTop:640},700);
-});
-$('.btn3').click(function(){
-    $('html').animate({scrollTop:1290},700);
-});
-$('.btn4').click(function(){
-    $('html').animate({scrollTop:1860},700);
-});
-$('.btn9').click(function(){
-    $('html').animate({scrollTop:2680},700);
-});
 //phone 누르면 모달팝업창 띄우기
 $('.phone').click(function(){
     $('#phone_modal').fadeIn(200);
