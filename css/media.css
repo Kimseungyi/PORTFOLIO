@@ -110,8 +110,11 @@ display: inline;}
     #section04{ position: inherit;}
     #section04 .s04Wrap{ position: relative; top: 1120px;}
     #section09 {top:640px}
-    #copyright {bottom: -320px;}
     #section04 #modal {top: 3550px}
+    #section09 .s09Cont .soon p {
+        font-size: 30px;
+    }
+    #copyright {bottom: -320px;}
 }
 
 /* 화면 너비 0 ~ 420px */
