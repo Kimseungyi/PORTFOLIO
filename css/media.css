@@ -106,6 +106,7 @@ display: inline;}
         margin-top: 600px;
         width: 50%;
     }
+    #section03 .charts { overflow: inherit;}
     #section04{ position: inherit;}
     #section04 .s04Wrap{ position: relative; top: 1120px;}
     #section09 {top:640px}
@@ -119,17 +120,21 @@ display: inline;}
     #section01 .s01_main {
         font-size: 38px;
     }
+    #section02 .s02Top p { font-size: 19px;}
+    #section02 .s02Top p:nth-of-type(2) {font-size: 13px;}
     #section02 .s02Bot div.right {
         margin-bottom: 128px;
     }
-    #section03 .s03Wrap {
-        width: 120%;
-    }
-    #section04 .port_menu li {
-        margin: 0;
+    #section02 .s02Bot div h2 { font-size: 1.25em;}
+    #section03 .chart p {font-size: 17px;}
+    #section04 .port_menu li a {
+        padding: 7px 22px;
     }
     #section09 .s09Cont .soon p {
         font-size: 28px;
+    }
+    #section09 .s09Cont .info a {
+        font-size: 16px;
     }
     .copyright p {
         font-size: 11px;
