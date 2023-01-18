@@ -1,19 +1,39 @@
-//btn버튼을 클릭하면 해당 섹션으로 부드럽게 이동
-$('.btn1,.arrow').click(function(){
-    $('html').animate({scrollTop:0},700);
+// //btn버튼을 클릭하면 해당 섹션으로 부드럽게 이동
+// $('.btn1,.arrow').click(function(){
+//     $('html').animate({scrollTop:0},700);
+// });
+// $('.btn2').click(function(){
+//     $('html').animate({scrollTop:800},700);
+// });
+// $('.btn3').click(function(){
+//     $('html').animate({scrollTop:1320},700);
+// });
+// $('.btn4').click(function(){
+//     $('html').animate({scrollTop:1900},700);
+// });
+// $('.btn9').click(function(){
+//     $('html').animate({scrollTop:2720},700);
+// });
+
+$(document).ready(function(){
+    var $tab = $('.ham_list');
+    var $menus = $tab.find('a');
+    // var $conts = $('.ham_list');
+
+    //스크롤되면서 이동
+    $menus.on('click', function(e){
+        e.preventDefault();
+        var $this = $(this);
+        var $target = $($this.attr("href"));
+
+        $('html, body').animate({
+            scrollTop: $target.offset().top - 100
+        }, 400);
+    });
+
 });
-$('.btn2').click(function(){
-    $('html').animate({scrollTop:660},700);
-});
-$('.btn3').click(function(){
-    $('html').animate({scrollTop:1320},700);
-});
-$('.btn4').click(function(){
-    $('html').animate({scrollTop:1900},700);
-});
-$('.btn9').click(function(){
-    $('html').animate({scrollTop:2720},700);
-});
+
+
 
 //햄버거 버튼 클릭시 해당 섹션으로 감
 $('.ham_list li').click(function(){

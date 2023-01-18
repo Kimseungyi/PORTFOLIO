@@ -125,7 +125,7 @@ p {
 /* section01 start */
 #section01 {
 	position: relative;
-	height: 700px;
+	height: 100vh;
 	box-sizing: border-box;
 	width: 91%;
 	margin: auto;
@@ -243,7 +243,7 @@ p {
 
 /* section02 start*/
 #section02 {
-	height: 700px;
+	height: 100vh;
 	background: #f3f3f3;
 }
 #section02 .s02Wrap { 
@@ -487,7 +487,7 @@ p {
 
 /* section09 start*/
 #section09 {
-	height: 650px;
+	height: 100vh;
 	position: relative;
 }
 #section09 .s09Wrap {
